@@ -1,0 +1,50 @@
+.html {
+  font-size: 16px;
+}
+
+.header {
+  height: 10rem;
+  width: 100%;
+  background-color: Orange;
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  padding: 3rem 0 6rem 0;
+}
+
+nav {
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dropdowns {
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  background-color: grey;
+}
+
+#web-sites-drop-down {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
